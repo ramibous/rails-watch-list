@@ -1,0 +1,12 @@
+<%= form_with model: @movie do |l| %>
+  <%= l.label :title %>
+  <%= l.text_field :title %>
+  <%= l.label :overview %>
+  <%= l.text_field :overview %>
+  <%= l.label :poster_url %>
+  <%= l.text_field :poster_url %>
+  <%= l.label :rating %>
+  <%= l.text_field :rating %>
+  <%= l.submit %>
+
+<% end %>
