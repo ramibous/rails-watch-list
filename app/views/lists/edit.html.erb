@@ -1,5 +1,7 @@
-<%= form_with model: @list do |l| %>
-  <%= l.label :name %>
-  <%= l.text_field :name %>
-  <%= l.submit %>
-<% end %>
+<a href="<%= movies_path %>">
+  <%= form_with model: @list do |l| %>
+    <%= l.label :name %>
+    <%= l.text_field :name %>
+    <%= l.submit %>
+  <% end %>
+</a>
