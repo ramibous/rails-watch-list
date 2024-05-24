@@ -14,3 +14,42 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+/* Modern CSS for movie list */
+.container {
+    max-width: 1200px; /* Limit container width for larger screens */
+    margin: auto; /* Center container horizontally */
+  }
+  
+  .movie-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Adjust the spacing between movie items */
+  }
+  
+  .movie-item {
+    border: 1px solid #ccc; /* Add a border to each movie item */
+    border-radius: 10px; /* Round the corners */
+    overflow: hidden; /* Hide overflow content */
+  }
+  
+  .movie-item img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    border-bottom: 1px solid #ccc; /* Add a border to separate image from text */
+  }
+  
+  .movie-item .description {
+    padding: 20px;
+  }
+  
+  .movie-item h4 {
+    margin-top: 0;
+  }
+  
+  .movie-item p {
+    margin-bottom: 10px;
+  }
+  
+  .movie-item .btn {
+    margin-top: 10px;
+  }

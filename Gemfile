@@ -36,6 +36,7 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
 gem "sassc-rails" # Uncomment this line
 
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -66,6 +67,8 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
   gem 'faker'
+
+  
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
